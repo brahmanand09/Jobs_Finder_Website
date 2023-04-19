@@ -1,0 +1,141 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+    display: block;
+}
+
+#header{
+    border: none;
+    position: relative;
+    height: auto;
+    min-height: 175px;
+    background-color:#e8f9fd;
+    margin-top: 5px;
+    border-radius: 10px;;
+}
+
+.logo{
+    padding: 10px 0;
+    float: left;
+    margin-left: 20px;
+    height: 10px;
+}
+
+img{
+    border-radius: 100%;
+}
+
+#header-text {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 45px;
+    color:#7d3cff;
+}
+
+#header, #wrap, #marquee1 {
+    max-width: 1010px;
+    width: auto;
+}
+
+#wrap {
+    /* width: 75%; */
+    height: 52px;
+    margin: 0px;
+    z-index: 99;
+    position: relative;
+    background-color: #000;
+    
+}
+
+.navbar{
+    border-right: none;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    
+}
+
+.navbar li {
+    height: 30px;
+    width: 107px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1.2em Arial,Verdana,Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+
+.navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #000;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+
+
+table.box-data {
+    max-width: 1000px;
+    width: 100%;
+}
+
+#box1{
+    margin: 2px;
+    width: 98.5%;
+}
+
+#box1 {
+    height: 60px;
+    width: 245px;
+    background-color: #868a08;
+    
+}
+
+#box1 a{
+    font-size: x-large;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.center-tables table td {
+    width: auto;
+}
+
+.heading {
+    margin-left: 25%;
+    width: 50%;
+    background-color:red;
+    height: 35px;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+
+.heading a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bar {
+    height: 40px;
+    background: #212121;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    margin-bottom: 5px;
+}
